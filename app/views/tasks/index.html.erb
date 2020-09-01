@@ -1,0 +1,18 @@
+<div class="container">
+  <h1>My Task</h1>
+  <% @tasks.each do |task| %>
+    <ul>
+      <div class="tasks">
+        <li class ="markers">
+          <% if task.completed %>
+            <%= icon('fas', 'circle') %>
+          <% else %>
+            <%= icon('far', 'circle') %>
+          <% end %>
+            <%= link_to task.title, task_path(task) %>
+        </li>
+      </div>
+    </ul>
+  <% end %>
+  <%= link_to "Add a Task", new_task_path %>
+</div>

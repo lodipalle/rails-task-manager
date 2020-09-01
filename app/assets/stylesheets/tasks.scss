@@ -1,0 +1,39 @@
+// Place all the styles related to the Tasks controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  color:#AF5F4C;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  color: #557571;
+}
+
+.markers {
+  color: #A65150;
+}
+
+.tasks {
+  color: #80524C;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+}
+
+.container {
+width: 300px;
+margin: auto;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+text-decoration: none;
+}
+
